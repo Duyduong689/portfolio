@@ -3,7 +3,8 @@ import { RiReactjsLine } from "react-icons/ri";
 import { RiAngularjsLine } from "react-icons/ri";
 import { RiJavascriptLine } from "react-icons/ri";
 import { TbBrandTypescript } from "react-icons/tb";
-import { SiRedux } from "react-icons/si";
+import { AiOutlineDotNet } from "react-icons/ai";
+
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -73,7 +74,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiRedux className=" text-7xl text-purple-400" />
+          <AiOutlineDotNet className=" text-7xl text-purple-400" />
         </motion.div>
       </motion.div>
     </div>
