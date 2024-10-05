@@ -3,10 +3,10 @@
 // import project3 from "../assets/projects/project-3.jpg";
 // import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a front-end developer with a passion for building responsive, user-friendly web interfaces. I have strong experience in modern JavaScript frameworks, UI/UX design, and performance optimization. I enjoy collaborating with teams to solve complex challenges and deliver high-quality solutions.`;
+export const HERO_CONTENT = `I am a front-end developer with a passion for building responsive, user-friendly web interfaces. I have strong experience in modern JavaScript frameworks, UI/UX design, and performance optimization.`;
 
 export const ABOUT_TEXT = `
-A passionate front-end developer, I specialize in creating efficient and user-friendly web applications. With experience across React, Angular, TypeScript, JavaScript, .NET, my focus is on delivering high-quality, responsive designs that meet user needs. My journey in web development began with a curiosity for how things work, and it has since evolved into a dedication to mastering front-end technologies. Thriving in collaborative environments, I enjoy solving complex challenges and continuously exploring new tools and approaches to enhance my skills.`;
+With experience across React, Angular, TypeScript, JavaScript, my focus is on delivering high-quality, responsive designs that meet user needs. Thriving in collaborative environments, I enjoy collaborating with teams to solve complex challenges and deliver high-quality solutions.`;
 
 export const EXPERIENCES = [
   {

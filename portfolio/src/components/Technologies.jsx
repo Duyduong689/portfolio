@@ -68,14 +68,14 @@ const Technologies = () => {
         >
           <TbBrandTypescript className=" text-7xl text-blue-400" />
         </motion.div>
-        <motion.div
+        {/* <motion.div
           variants={iconVariants(3.4)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <AiOutlineDotNet className=" text-7xl text-purple-400" />
-        </motion.div>
+        </motion.div> */}
       </motion.div>
     </div>
   );

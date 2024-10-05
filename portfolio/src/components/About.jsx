@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../assets/about.jpg";
+import aboutImg from "../assets/about-me-photo.jpeg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
@@ -23,7 +23,7 @@ const About = () => {
           className="w-full lg:w-1/2 lg:p-8"
         >
           <div className=" flex items-center justify-center">
-            <img src={aboutImg} className=" rounded-2xl" alt="about" />
+            <img src={aboutImg} className=" rounded-2xl" alt="about" width={450} />
           </div>
         </motion.div>
         <motion.div
@@ -33,7 +33,7 @@ const About = () => {
           className=" w-full lg:w-1/2"
         >
           <div className=" flex justify-center lg:justify-start">
-            <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
+            <p className="my-2 max-w-xl py-6 text-2xl">{ABOUT_TEXT}</p>
           </div>
         </motion.div>
       </div>
