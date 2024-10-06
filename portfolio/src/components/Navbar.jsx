@@ -1,6 +1,5 @@
 import React from "react";
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -9,10 +8,14 @@ const Navbar = () => {
         <span className=" text-3xl text-white">DuyDev</span>
       </div>
       <div className=" m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-        <FaInstagram />
-        <FaSquareXTwitter />
+        <a href="https://www.linkedin.com/in/duyduong3659/">
+          <FaLinkedin />
+        </a>
+        <a href="https://github.com/Duyduong689">
+          <FaGithub />
+        </a>
+        {/* <FaInstagram /> */}
+        {/* <FaSquareXTwitter /> */}
       </div>
     </nav>
   );

@@ -22,13 +22,15 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className=" w-full lg:w-1/4"
             >
-              <img
-                src={pro.img}
-                width={150}
-                height={150}
-                className=" mb-6 rounded"
-                alt={pro.title}
-              />
+              <a href={pro.link}>
+                <img
+                  src={pro.image}
+                  width={300}
+                  height={300}
+                  className=" mb-6 rounded"
+                  alt={pro.title}
+                />
+              </a>
             </motion.div>
             <motion.div
               initial={{ x: -100, opacity: 0 }}
@@ -41,7 +43,7 @@ const Projects = () => {
               {pro.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className=" mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
+                  className=" mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500"
                 >
                   {tech}
                 </span>
